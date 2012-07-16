@@ -68,9 +68,6 @@ function initializePresentation(prefix) {
 	// unhide for height to work in static mode
         $("#slides").show();
 
-	//center slides offscreen
-	centerSlides($('#slides > .slide'))
-
 	//copy into presentation area
 	$("#preso").empty()
 	$('#slides > .slide').appendTo($("#preso"))
